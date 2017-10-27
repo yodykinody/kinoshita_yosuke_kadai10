@@ -1,0 +1,465 @@
+@charset "UTF-8";
+
+body { font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+body{
+  margin:0;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:#959595	;
+}
+
+.logout{
+  text-decoration:none;
+  color:black;
+}
+
+.logout:hover{
+  color:#959595	;
+  cursor: pointer;
+}
+
+
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #EF8853;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #EF8853;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input[type=submit]{
+  color:#fff;
+  background-color:#EF8853;
+  font-size: 20px;
+  text-align: center;
+  width:150px;
+  text-indent: 0em;
+  cursor:pointer;
+  height: 58px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+input[type=button]{
+  color:#fff;
+  background-color:#EF8853;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  width:200px;
+  text-indent: 0em;
+  cursor:pointer;
+  height: 58px;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+input[type=submit]:hover{
+  opacity: 0.8;
+}
+
+input[type=button]:hover{
+  opacity: 0.8;
+}
+
+
+
+.site h1{
+  margin:0;
+}
+
+.info2 span,.info3 span,.info4 span{
+  color:#EF8853;
+  font-weight: bold;
+}
+
+
+/*ヘッダーメニュー*/
+.menu ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.menu li a{
+  text-decoration: none;
+  display: block;
+  padding:3px 42px 20px 42px;
+}
+
+.menu li a:hover{
+  opacity: 0.7;
+}
+
+.menu li{
+  float:left;
+  width:auto;
+}
+
+.menu ul:after{
+  clear:both;
+  content:"";
+  display: block;
+}
+
+
+/*ボックスレイアウト*/
+
+
+.side{
+  margin:0;
+  padding:0;
+  width:21%;
+  height:150px;
+  float:left;
+}
+
+.side img{
+  max-width: 200px;
+  height: auto;
+}
+
+/*info1*/
+.info1{
+  margin:0;
+  padding:0;
+  height:150px;
+  width:70%;
+  float:left;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.info1 td{
+  color:#EF8853;
+  font-weight: bold;
+}
+
+#kuro{
+  color:#000000;
+  font-weight: normal;
+}
+
+
+
+
+/*カラー
+青#305187;
+緑#00B49D;
+空色 #577FC0;
+*/
+
+
+
+/*info2*/
+.info2{
+  width:100%;
+  height: 220px;
+  float:left;
+  margin:0;
+  padding:0;
+  margin-right: 30px;
+}
+
+.info2 li{
+  list-style: none;
+  padding:0;
+  margin:0;
+
+}
+
+.info2 ul{
+  padding:0;
+  margin:0;
+  margin-top:20px;
+}
+
+.info2{
+  width:20%;
+}
+
+
+
+/*info3*/
+.info3{
+  width:20%;
+  float:left;
+  height:200px;
+}
+
+.info3 ul{
+  padding:0;
+  margin:0;
+  margin-top:20px;
+
+}
+
+.info3 li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+/*info4*/
+.info4{
+  width:30%;
+  float:left;
+  height:200px
+}
+
+.info4 ul{
+  padding:0;
+  margin:0;
+  margin-top:20px;
+}
+
+.info4 li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+
+#roomFacility span{
+  color:#000000;
+  font-weight: normal;
+}
+
+
+
+/*photoGallery1(1列目)*/
+.photoGallery1{
+  width:100%;
+  height: 40px;
+  float:left;
+  margin-top: 30px;
+}
+
+.photoGallery1 h2{
+  margin:0;
+  padding:0;
+  font-weight: normal;
+}
+
+
+/*1列目写真*/
+.photoGallery2{
+  width:70%;
+  height: 110px;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+.photoGallery2 table{
+  margin:0;
+  padding:0;
+}
+
+
+.photoGallery2 img{
+  max-width: 120px;
+  height:auto;
+  margin-right: 10px;
+}
+
+/*photoGallery3(2列目)*/
+.photoGallery3{
+  width:70%;
+  height: 100px;
+  float:left;
+  margin:0;
+  padding:0;
+  margin-top:20px;
+}
+
+/*間取り画像調整（後々削除）*/
+.room{
+  max-height:90px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.return{
+  float: left;
+  text-align: center;
+  bottom:0;
+  padding:20px 20px 20px 20px;
+  background-color: #EF8853;
+  width: 160px;
+  color:#ffffff;
+  border-radius: 5px;
+  font-size:17px;
+  font-weight: bold;
+}
+
+.plus{
+  float: left;
+  text-align: center;
+  bottom:0;
+  margin-left: 20px;
+  padding:20px 20px 20px 20px;
+  background-color: #EF8853;
+  width: 160px;
+  color:#ffffff;
+  border-radius: 5px;
+  font-size:17px;
+  font-weight: bold;
+}
+
+
+.bottomLine a:hover{
+  opacity: 0.8;
+}
+
+
+.bottomLine{
+  position: relative;
+  height:100px;
+  width:30%;
+  float:left;
+}
+
+
+
+.photoSecond{
+  width:70%;
+  height:100px;
+  float:right;
+}
+
+.photoSecond img{
+  max-width: 120px;
+  height:auto;
+  margin-right: 10px;
+}
+
+.photoSecond table{
+  margin-left:28px;
+}
+
+
+/*コピーライト*/
+.copyright p{
+  color:#ffffff;
+}
+
+
+.kushitsu{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+    border-radius: 5px;
+    color: #EF8853;
+    border: solid 2px #EF8853;
+    width: 135px;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.kushitsu:hover{
+  opacity: 0.8;
+  padding: 28px 3px 28px 3px;
+  border: solid 4px #EF8853;
+}
+
+
+
+
+/*boxレイアウト*/
+.boxA:after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+.box1{
+  float:left;
+  width:auto;
+}
+
+.box2{
+  float:right;
+  width:auto;
+}
+
+
+
+
+
+
+
+
+/*フッターの形にする*/
+.box6{
+  background-color: #EF8853;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-top: 150px;
+
+}
+
+.boxA, .box6{
+  padding-left:15px;
+  padding-right: 15px;
+}
+
+
+/*ボックスの上下*/
+.boxA{
+  padding-top:20px;
+  padding-bottom:10px;
+}
+
+
+
+/*全体の横幅を固定*/
+.boxA-inner, .box6-inner{
+  width:1140px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/*boxAの下に羅線を挿入*/
+.boxA{
+  border-bottom:solid 2px #EF8853;
+}
+
+.boxB{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.boxB{
+  width:1140px;
+  margin-top: 50px;
+}
+
+/*ボックスBで横並び*/
+.boxB:after{
+  content:"";
+  display: block;
+  clear:both;
+}
